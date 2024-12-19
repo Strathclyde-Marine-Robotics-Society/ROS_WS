@@ -1,0 +1,5 @@
+[console_scripts]
+camera = computer_vision.camera:main
+detect = computer_vision.detect:main
+display = computer_vision.display:main
+

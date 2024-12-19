@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "extra_interfaces__py",
+		"source" : "/home/strathvoyager/new_ws/src/build/extra_interfaces/extra_interfaces__py"
+	}
+}

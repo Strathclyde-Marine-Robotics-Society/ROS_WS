@@ -1,0 +1,8 @@
+{
+  "package_name": "extra_interfaces",
+  "non_idl_tuples": [
+    "/home/strathvoyager/new_ws/src/extra_interfaces:msg/Photo.msg",
+    "/home/strathvoyager/new_ws/src/extra_interfaces:msg/Ready.msg",
+    "/home/strathvoyager/new_ws/src/extra_interfaces:msg/Detection.msg"
+  ]
+}

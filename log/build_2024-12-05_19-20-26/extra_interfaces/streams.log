@@ -1,0 +1,31 @@
+[0.029s] Invoking command in '/home/strathvoyager/new_ws/build/extra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/ros2/install/transmitter:/home/strathvoyager/ros2/install/telemetry:/home/strathvoyager/ros2/install/simulator:/home/strathvoyager/ros2/install/qtm_data:/home/strathvoyager/ros2/install/path_planner:/home/strathvoyager/ros2/install/path_follower:/home/strathvoyager/ros2/install/lidar_clustering:/home/strathvoyager/ros2/install/gps:/home/strathvoyager/ros2/install/goal_generator:/home/strathvoyager/ros2/install/environment:/home/strathvoyager/ros2/install/computer_vision:/opt/ros/humble /usr/bin/cmake /home/strathvoyager/new_ws/src/extra_interfaces -DCMAKE_INSTALL_PREFIX=/home/strathvoyager/new_ws/install/extra_interfaces
+[0.358s] -- The C compiler identification is GNU 11.4.0
+[0.591s] -- The CXX compiler identification is GNU 11.4.0
+[0.621s] -- Detecting C compiler ABI info
+[0.763s] -- Detecting C compiler ABI info - done
+[0.780s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.781s] -- Detecting C compile features
+[0.783s] -- Detecting C compile features - done
+[0.790s] -- Detecting CXX compiler ABI info
+[0.945s] -- Detecting CXX compiler ABI info - done
+[0.971s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.972s] -- Detecting CXX compile features
+[0.973s] -- Detecting CXX compile features - done
+[0.999s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.323s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.628s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.848s] -- Added test 'lint_cmake' to check CMake code style
+[1.851s] -- Added test 'xmllint' to check XML markup files
+[1.862s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.904s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.023s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.105s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+[2.106s]   rosidl_generate_interfaces() must be called before ament_package()
+[2.106s] Call Stack (most recent call first):
+[2.106s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[2.107s] 
+[2.107s] [0m
+[2.107s] -- Configuring incomplete, errors occurred!
+[2.107s] See also "/home/strathvoyager/new_ws/build/extra_interfaces/CMakeFiles/CMakeOutput.log".
+[2.116s] Invoked command in '/home/strathvoyager/new_ws/build/extra_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/ros2/install/transmitter:/home/strathvoyager/ros2/install/telemetry:/home/strathvoyager/ros2/install/simulator:/home/strathvoyager/ros2/install/qtm_data:/home/strathvoyager/ros2/install/path_planner:/home/strathvoyager/ros2/install/path_follower:/home/strathvoyager/ros2/install/lidar_clustering:/home/strathvoyager/ros2/install/gps:/home/strathvoyager/ros2/install/goal_generator:/home/strathvoyager/ros2/install/environment:/home/strathvoyager/ros2/install/computer_vision:/opt/ros/humble /usr/bin/cmake /home/strathvoyager/new_ws/src/extra_interfaces -DCMAKE_INSTALL_PREFIX=/home/strathvoyager/new_ws/install/extra_interfaces

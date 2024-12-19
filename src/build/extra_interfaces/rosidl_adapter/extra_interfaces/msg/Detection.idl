@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from extra_interfaces/msg/Detection.msg
+// generated code does not contain a copyright notice
+
+
+module extra_interfaces {
+  module msg {
+    typedef uint32 uint32__4[4];
+    struct Detection {
+      uint32__4 box;
+
+      uint32 cls;
+
+      float conf;
+    };
+  };
+};

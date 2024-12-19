@@ -1,0 +1,6 @@
+msg/Detection.idl
+msg/Detection.msg
+msg/Photo.idl
+msg/Photo.msg
+msg/Ready.idl
+msg/Ready.msg

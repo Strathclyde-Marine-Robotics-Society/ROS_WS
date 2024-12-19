@@ -1,0 +1,10 @@
+setup.py
+extra_interfaces/__init__.py
+extra_interfaces.egg-info/PKG-INFO
+extra_interfaces.egg-info/SOURCES.txt
+extra_interfaces.egg-info/dependency_links.txt
+extra_interfaces.egg-info/top_level.txt
+extra_interfaces/msg/__init__.py
+extra_interfaces/msg/_detection.py
+extra_interfaces/msg/_photo.py
+extra_interfaces/msg/_ready.py

@@ -1,0 +1,5 @@
+  File "/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision/camera.py", line 7
+    from extra_interfaces/Ready.msg import Ready
+                         ^
+SyntaxError: invalid syntax
+

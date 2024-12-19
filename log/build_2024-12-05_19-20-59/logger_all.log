@@ -1,0 +1,134 @@
+[0.180s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'extra_interfaces']
+[0.180s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['extra_interfaces'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8034ef20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8034e2c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8034e2c0>>, mixin_verb=('build',))
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.482s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/strathvoyager/new_ws'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/computer_vision) by extension 'ros'
+[0.527s] DEBUG:colcon.colcon_core.package_identification:Package 'src/computer_vision' with type 'ros.ament_python' and name 'computer_vision'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/extra_interfaces) by extension 'ros'
+[0.529s] DEBUG:colcon.colcon_core.package_identification:Package 'src/extra_interfaces' with type 'ros.ament_cmake' and name 'extra_interfaces'
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.560s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'computer_vision' in 'src/computer_vision'
+[0.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/strathvoyager/packages/ydlidar_ros2_driver/install
+[0.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/strathvoyager/packages/rviz_2d_overlay/install
+[0.566s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/strathvoyager/packages/ouster_lidar/install
+[0.567s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/strathvoyager/packages/rviz_2d_overlay_plugins/install
+[0.567s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/strathvoyager/packages/zed-ros2-wrapper/install
+[0.568s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/strathvoyager/packages/ros2_laser_scan_matcher/install
+[0.569s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/strathvoyager/packages/csm/install
+[0.570s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/strathvoyager/ros2/install
+[0.572s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/humble
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'extra_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'extra_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/strathvoyager/new_ws/build/extra_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/strathvoyager/new_ws/install/extra_interfaces', 'merge_install': False, 'path': '/home/strathvoyager/new_ws/src/extra_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.644s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.646s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/strathvoyager/new_ws/src/extra_interfaces' with build type 'ament_cmake'
+[0.647s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/strathvoyager/new_ws/src/extra_interfaces'
+[0.650s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.650s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/strathvoyager/new_ws/build/extra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/ros2/install/transmitter:/home/strathvoyager/ros2/install/telemetry:/home/strathvoyager/ros2/install/simulator:/home/strathvoyager/ros2/install/qtm_data:/home/strathvoyager/ros2/install/path_planner:/home/strathvoyager/ros2/install/path_follower:/home/strathvoyager/ros2/install/lidar_clustering:/home/strathvoyager/ros2/install/gps:/home/strathvoyager/ros2/install/goal_generator:/home/strathvoyager/ros2/install/environment:/home/strathvoyager/ros2/install/computer_vision:/opt/ros/humble /usr/bin/cmake /home/strathvoyager/new_ws/src/extra_interfaces -DCMAKE_INSTALL_PREFIX=/home/strathvoyager/new_ws/install/extra_interfaces
+[1.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/strathvoyager/new_ws/build/extra_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/ros2/install/transmitter:/home/strathvoyager/ros2/install/telemetry:/home/strathvoyager/ros2/install/simulator:/home/strathvoyager/ros2/install/qtm_data:/home/strathvoyager/ros2/install/path_planner:/home/strathvoyager/ros2/install/path_follower:/home/strathvoyager/ros2/install/lidar_clustering:/home/strathvoyager/ros2/install/gps:/home/strathvoyager/ros2/install/goal_generator:/home/strathvoyager/ros2/install/environment:/home/strathvoyager/ros2/install/computer_vision:/opt/ros/humble /usr/bin/cmake /home/strathvoyager/new_ws/src/extra_interfaces -DCMAKE_INSTALL_PREFIX=/home/strathvoyager/new_ws/install/extra_interfaces
+[1.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(extra_interfaces)
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/strathvoyager/new_ws/install/extra_interfaces' for CMake module files
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/strathvoyager/new_ws/install/extra_interfaces' for CMake config files
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/strathvoyager/new_ws/install/extra_interfaces/bin'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/strathvoyager/new_ws/install/extra_interfaces/lib/pkgconfig/extra_interfaces.pc'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/strathvoyager/new_ws/install/extra_interfaces/lib/python3.10/site-packages'
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/strathvoyager/new_ws/install/extra_interfaces/bin'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.ps1'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.dsv'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.sh'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.bash'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.zsh'
+[1.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/strathvoyager/new_ws/install/extra_interfaces/share/colcon-core/packages/extra_interfaces)
+[1.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.572s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.590s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.591s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.591s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.628s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/strathvoyager/new_ws/install/local_setup.ps1'
+[1.633s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/strathvoyager/new_ws/install/_local_setup_util_ps1.py'
+[1.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/strathvoyager/new_ws/install/setup.ps1'
+[1.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/strathvoyager/new_ws/install/local_setup.sh'
+[1.644s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/strathvoyager/new_ws/install/_local_setup_util_sh.py'
+[1.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/strathvoyager/new_ws/install/setup.sh'
+[1.651s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/strathvoyager/new_ws/install/local_setup.bash'
+[1.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/strathvoyager/new_ws/install/setup.bash'
+[1.658s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/strathvoyager/new_ws/install/local_setup.zsh'
+[1.659s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/strathvoyager/new_ws/install/setup.zsh'

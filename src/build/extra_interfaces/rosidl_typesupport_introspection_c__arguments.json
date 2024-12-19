@@ -1,0 +1,23 @@
+{
+  "package_name": "extra_interfaces",
+  "output_dir": "/home/strathvoyager/new_ws/src/build/extra_interfaces/rosidl_typesupport_introspection_c/extra_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/strathvoyager/new_ws/src/build/extra_interfaces/rosidl_adapter/extra_interfaces:msg/Photo.idl",
+    "/home/strathvoyager/new_ws/src/build/extra_interfaces/rosidl_adapter/extra_interfaces:msg/Ready.idl",
+    "/home/strathvoyager/new_ws/src/build/extra_interfaces/rosidl_adapter/extra_interfaces:msg/Detection.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/strathvoyager/new_ws/src/build/extra_interfaces/rosidl_adapter/extra_interfaces/msg/Photo.idl",
+    "/home/strathvoyager/new_ws/src/build/extra_interfaces/rosidl_adapter/extra_interfaces/msg/Ready.idl",
+    "/home/strathvoyager/new_ws/src/build/extra_interfaces/rosidl_adapter/extra_interfaces/msg/Detection.idl"
+  ]
+}

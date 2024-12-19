@@ -1,0 +1,276 @@
+[0.402s] Invoking command in '/home/strathvoyager/new_ws/build/extra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble /usr/bin/cmake --build /home/strathvoyager/new_ws/build/extra_interfaces -- -j12 -l12
+[0.440s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.641s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.745s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.748s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.142s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.936s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.979s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.979s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.979s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.016s] -- Added test 'lint_cmake' to check CMake code style
+[2.018s] -- Added test 'xmllint' to check XML markup files
+[2.024s] -- Configuring done
+[2.074s] -- Generating done
+[2.078s] -- Build files have been written to: /home/strathvoyager/new_ws/build/extra_interfaces
+[2.124s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.141s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.159s] [  4%] Built target ament_cmake_python_copy_extra_interfaces
+[2.518s] running egg_info
+[2.519s] writing extra_interfaces.egg-info/PKG-INFO
+[2.520s] writing dependency_links to extra_interfaces.egg-info/dependency_links.txt
+[2.520s] writing top-level names to extra_interfaces.egg-info/top_level.txt
+[2.523s] reading manifest file 'extra_interfaces.egg-info/SOURCES.txt'
+[2.524s] writing manifest file 'extra_interfaces.egg-info/SOURCES.txt'
+[2.573s] [  4%] Built target ament_cmake_python_build_extra_interfaces_egg
+[2.602s] [  4%] Built target extra_interfaces__cpp
+[2.615s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.615s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_generator_c[0m
+[2.616s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.616s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.635s] [ 12%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_c.dir/rosidl_generator_c/extra_interfaces/msg/detail/ready__functions.c.o[0m
+[2.635s] [ 14%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_c.dir/rosidl_generator_c/extra_interfaces/msg/detail/photo__functions.c.o[0m
+[2.635s] [ 17%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_c.dir/rosidl_generator_c/extra_interfaces/msg/detail/detection__functions.c.o[0m
+[2.752s] [ 19%] [32m[1mLinking C shared library libextra_interfaces__rosidl_generator_c.so[0m
+[2.799s] [ 19%] Built target extra_interfaces__rosidl_generator_c
+[2.813s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.814s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.814s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.014s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_cpp[0m
+[3.033s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.033s] [ 31%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/extra_interfaces/msg/ready__type_support.cpp.o[0m
+[3.033s] [ 31%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/extra_interfaces/msg/detection__type_support.cpp.o[0m
+[3.033s] [ 31%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/extra_interfaces/msg/photo__type_support.cpp.o[0m
+[3.052s] [ 34%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/extra_interfaces/msg/detail/photo__type_support.cpp.o[0m
+[3.061s] [ 38%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/extra_interfaces/msg/detail/ready__type_support.cpp.o[0m
+[3.061s] [ 38%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/extra_interfaces/msg/detail/detection__type_support.cpp.o[0m
+[3.068s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.087s] [ 40%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/extra_interfaces/msg/detail/dds_fastrtps/photo__type_support.cpp.o[0m
+[3.098s] [ 42%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/extra_interfaces/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[3.101s] [ 44%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/extra_interfaces/msg/detail/dds_fastrtps/ready__type_support.cpp.o[0m
+[3.197s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_c[0m
+[3.231s] [ 46%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/extra_interfaces/msg/photo__type_support.cpp.o[0m
+[3.279s] [ 48%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/extra_interfaces/msg/ready__type_support.cpp.o[0m
+[3.293s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_introspection_c[0m
+[3.308s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.316s] [ 51%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/extra_interfaces/msg/detail/photo__type_support.c.o[0m
+[3.336s] [ 53%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/extra_interfaces/msg/detail/photo__type_support_c.cpp.o[0m
+[3.340s] [ 55%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/extra_interfaces/msg/detection__type_support.cpp.o[0m
+[3.387s] [ 57%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/extra_interfaces/msg/detail/ready__type_support.c.o[0m
+[3.400s] [ 59%] [32m[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_c.so[0m
+[3.458s] [ 61%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/extra_interfaces/msg/detail/detection__type_support.c.o[0m
+[3.470s] [ 63%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/extra_interfaces/msg/detail/ready__type_support_c.cpp.o[0m
+[3.473s] [ 63%] Built target extra_interfaces__rosidl_typesupport_c
+[3.475s] [ 65%] [32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/extra_interfaces/msg/detail/detection__type_support_c.cpp.o[0m
+[3.481s] [ 68%] [32m[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_cpp.so[0m
+[3.730s] [ 70%] [32m[1mLinking C shared library libextra_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.868s] [ 70%] Built target extra_interfaces__rosidl_typesupport_cpp
+[3.876s] [ 70%] Built target extra_interfaces__rosidl_typesupport_introspection_c
+[3.973s] [ 72%] [32m[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.983s] [ 74%] [32m[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.144s] [ 76%] [32m[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.170s] [ 76%] Built target extra_interfaces__rosidl_typesupport_introspection_cpp
+[4.170s] [ 76%] Built target extra_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.257s] [ 76%] Built target extra_interfaces__rosidl_typesupport_fastrtps_c
+[4.296s] [ 76%] Built target extra_interfaces
+[4.333s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.948s] [ 78%] Built target extra_interfaces__py
+[4.967s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_generator_py[0m
+[4.994s] [ 82%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_py.dir/rosidl_generator_py/extra_interfaces/msg/_photo_s.c.o[0m
+[4.994s] [ 82%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_py.dir/rosidl_generator_py/extra_interfaces/msg/_ready_s.c.o[0m
+[4.995s] [ 85%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_py.dir/rosidl_generator_py/extra_interfaces/msg/_detection_s.c.o[0m
+[5.165s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/extra_interfaces/libextra_interfaces__rosidl_generator_py.so[0m
+[5.228s] [ 87%] Built target extra_interfaces__rosidl_generator_py
+[5.246s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[5.247s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.247s] [35m[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_c__pyext[0m
+[5.270s] [ 93%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.270s] [ 93%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.270s] [ 93%] [32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.407s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/extra_interfaces/extra_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[5.407s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/extra_interfaces/extra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[5.441s] [100%] [32m[1mLinking C shared library rosidl_generator_py/extra_interfaces/extra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[5.456s] [100%] Built target extra_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.458s] [100%] Built target extra_interfaces__rosidl_typesupport_c__pyext
+[5.495s] [100%] Built target extra_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.516s] Invoked command in '/home/strathvoyager/new_ws/build/extra_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble /usr/bin/cmake --build /home/strathvoyager/new_ws/build/extra_interfaces -- -j12 -l12
+[5.696s] Invoking command in '/home/strathvoyager/new_ws/build/extra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble /usr/bin/cmake --install /home/strathvoyager/new_ws/build/extra_interfaces
+[5.710s] -- Install configuration: ""
+[5.710s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/ament_index/resource_index/rosidl_interfaces/extra_interfaces
+[5.710s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces
+[5.710s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg
+[5.711s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail
+[5.711s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__functions.c
+[5.711s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__type_support.h
+[5.711s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__functions.c
+[5.711s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__type_support.h
+[5.711s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__type_support.h
+[5.711s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__functions.h
+[5.711s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__struct.h
+[5.712s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__functions.h
+[5.712s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__functions.h
+[5.712s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__functions.c
+[5.712s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__struct.h
+[5.712s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__struct.h
+[5.713s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/photo.h
+[5.713s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detection.h
+[5.713s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.714s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/ready.h
+[5.714s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/library_path.sh
+[5.714s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/library_path.dsv
+[5.714s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_generator_c.so
+[5.715s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_generator_c.so" to ""
+[5.715s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces
+[5.715s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg
+[5.716s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail
+[5.716s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[5.716s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__rosidl_typesupport_fastrtps_c.h
+[5.716s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__rosidl_typesupport_fastrtps_c.h
+[5.716s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.716s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.717s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.717s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces
+[5.717s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg
+[5.717s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail
+[5.717s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[5.717s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__type_support.c
+[5.717s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__rosidl_typesupport_introspection_c.h
+[5.718s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__type_support.c
+[5.718s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__rosidl_typesupport_introspection_c.h
+[5.718s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__type_support.c
+[5.719s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.719s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_introspection_c.so
+[5.719s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.719s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_c.so
+[5.720s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_c.so" to ""
+[5.720s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces
+[5.720s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg
+[5.721s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/photo.hpp
+[5.721s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.721s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail
+[5.721s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__builder.hpp
+[5.722s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__traits.hpp
+[5.722s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__builder.hpp
+[5.722s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__type_support.hpp
+[5.723s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__struct.hpp
+[5.723s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__type_support.hpp
+[5.723s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__builder.hpp
+[5.724s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__type_support.hpp
+[5.724s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__traits.hpp
+[5.724s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__struct.hpp
+[5.724s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__traits.hpp
+[5.725s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__struct.hpp
+[5.725s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/ready.hpp
+[5.725s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detection.hpp
+[5.726s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces
+[5.726s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg
+[5.726s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail
+[5.726s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/dds_fastrtps
+[5.727s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[5.727s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__rosidl_typesupport_fastrtps_cpp.hpp
+[5.727s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__rosidl_typesupport_fastrtps_cpp.hpp
+[5.727s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.728s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.728s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.728s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces
+[5.728s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg
+[5.729s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail
+[5.729s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__type_support.cpp
+[5.729s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__type_support.cpp
+[5.730s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__type_support.cpp
+[5.730s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__rosidl_typesupport_introspection_cpp.hpp
+[5.730s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[5.730s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__rosidl_typesupport_introspection_cpp.hpp
+[5.731s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.731s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.731s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_cpp.so
+[5.732s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.732s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/pythonpath.sh
+[5.732s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/pythonpath.dsv
+[5.732s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info
+[5.732s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.733s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.733s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.733s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.733s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces
+[5.733s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/libextra_interfaces__rosidl_generator_py.so
+[5.733s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.734s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_detection.py
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_detection_s.c
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/__init__.py
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_ready.py
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_photo.py
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_photo_s.c
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_ready_s.c
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/__init__.py
+[5.734s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.735s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.735s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_c.c
+[5.789s] Listing '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces'...
+[5.790s] Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/__init__.py'...
+[5.790s] Listing '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg'...
+[5.790s] Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/__init__.py'...
+[5.790s] Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_detection.py'...
+[5.791s] Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_photo.py'...
+[5.791s] Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_ready.py'...
+[5.797s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.797s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.798s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.798s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.798s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.799s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.799s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_generator_py.so
+[5.799s] -- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_generator_py.so" to ""
+[5.799s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Photo.idl
+[5.800s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Ready.idl
+[5.800s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Detection.idl
+[5.800s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Photo.msg
+[5.800s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Ready.msg
+[5.800s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Detection.msg
+[5.800s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/ament_index/resource_index/package_run_dependencies/extra_interfaces
+[5.800s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/ament_index/resource_index/parent_prefix_path/extra_interfaces
+[5.801s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/ament_prefix_path.sh
+[5.801s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/ament_prefix_path.dsv
+[5.801s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/path.sh
+[5.801s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/path.dsv
+[5.801s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/local_setup.bash
+[5.801s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/local_setup.sh
+[5.801s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/local_setup.zsh
+[5.801s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/local_setup.dsv
+[5.801s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.dsv
+[5.802s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/ament_index/resource_index/packages/extra_interfaces
+[5.802s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_cExport.cmake
+[5.803s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.803s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.803s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.804s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.804s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.804s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_cExport.cmake
+[5.805s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.805s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_cppExport.cmake
+[5.805s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.805s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.805s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.806s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.806s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_cppExport.cmake
+[5.806s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.806s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_pyExport.cmake
+[5.807s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.807s] -- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.808s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.808s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.810s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.810s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.810s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.810s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.810s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfacesConfig.cmake
+[5.810s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfacesConfig-version.cmake
+[5.811s] -- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.xml
+[5.811s] Invoked command in '/home/strathvoyager/new_ws/build/extra_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble /usr/bin/cmake --install /home/strathvoyager/new_ws/build/extra_interfaces

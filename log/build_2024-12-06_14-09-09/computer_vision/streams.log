@@ -1,0 +1,26 @@
+[7.654s] Invoking command in '/home/strathvoyager/new_ws/src/computer_vision': PYTHONPATH=/home/strathvoyager/new_ws/build/computer_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/computer_vision build --build-base /home/strathvoyager/new_ws/build/computer_vision/build install --record /home/strathvoyager/new_ws/build/computer_vision/install.log --single-version-externally-managed install_data
+[8.043s] running egg_info
+[8.044s] writing ../../build/computer_vision/computer_vision.egg-info/PKG-INFO
+[8.048s] writing dependency_links to ../../build/computer_vision/computer_vision.egg-info/dependency_links.txt
+[8.049s] writing entry points to ../../build/computer_vision/computer_vision.egg-info/entry_points.txt
+[8.049s] writing requirements to ../../build/computer_vision/computer_vision.egg-info/requires.txt
+[8.049s] writing top-level names to ../../build/computer_vision/computer_vision.egg-info/top_level.txt
+[8.052s] reading manifest file '../../build/computer_vision/computer_vision.egg-info/SOURCES.txt'
+[8.053s] adding license file 'LICENSE'
+[8.054s] writing manifest file '../../build/computer_vision/computer_vision.egg-info/SOURCES.txt'
+[8.054s] running build
+[8.054s] running build_py
+[8.055s] copying computer_vision/camera.py -> /home/strathvoyager/new_ws/build/computer_vision/build/lib/computer_vision
+[8.056s] running install
+[8.056s] running install_lib
+[8.058s] copying /home/strathvoyager/new_ws/build/computer_vision/build/lib/computer_vision/camera.py -> /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision
+[8.059s] byte-compiling /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision/camera.py to camera.cpython-310.pyc
+[8.060s] running install_data
+[8.061s] running install_egg_info
+[8.064s] removing '/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[8.064s] Copying ../../build/computer_vision/computer_vision.egg-info to /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision-0.0.0-py3.10.egg-info
+[8.066s] running install_scripts
+[8.095s] Installing camera script to /home/strathvoyager/new_ws/install/computer_vision/lib/computer_vision
+[8.096s] Installing display script to /home/strathvoyager/new_ws/install/computer_vision/lib/computer_vision
+[8.096s] writing list of installed files to '/home/strathvoyager/new_ws/build/computer_vision/install.log'
+[8.147s] Invoked command in '/home/strathvoyager/new_ws/src/computer_vision' returned '0': PYTHONPATH=/home/strathvoyager/new_ws/build/computer_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/computer_vision build --build-base /home/strathvoyager/new_ws/build/computer_vision/build install --record /home/strathvoyager/new_ws/build/computer_vision/install.log --single-version-externally-managed install_data

@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000771] (-) JobUnselected: {'identifier': 'extra_interfaces'}
+[0.001007] (computer_vision) JobQueued: {'identifier': 'computer_vision', 'dependencies': OrderedDict()}
+[0.001245] (computer_vision) JobStarted: {'identifier': 'computer_vision'}
+[0.099459] (-) TimerEvent: {}
+[0.200022] (-) TimerEvent: {}
+[0.300591] (-) TimerEvent: {}
+[0.401152] (-) TimerEvent: {}
+[0.501575] (-) TimerEvent: {}
+[0.602292] (-) TimerEvent: {}
+[0.702931] (-) TimerEvent: {}
+[0.803543] (-) TimerEvent: {}
+[0.903994] (-) TimerEvent: {}
+[1.004604] (-) TimerEvent: {}
+[1.105052] (-) TimerEvent: {}
+[1.205664] (-) TimerEvent: {}
+[1.248926] (computer_vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/computer_vision', 'build', '--build-base', '/home/strathvoyager/new_ws/build/computer_vision/build', 'install', '--record', '/home/strathvoyager/new_ws/build/computer_vision/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/strathvoyager/new_ws/src/computer_vision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'strathvoyager', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/strathvoyager/new_ws/install/extra_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/strathvoyager', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'JETSON_MODEL': 'NVIDIA Jetson AGX Orin Developer Kit', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2817', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2f7269c336178451a8f9d5c56751f88e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/strathvoyager/new_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'strathvoyager', 'JETSON_MODULE': 'NVIDIA Jetson AGX Orin (64GB ram)', 'JETSON_SERIAL_NUMBER': '1423323023562', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'strathvoyager', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/strathvoyager/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2817,unix/ubuntu:/tmp/.ICE-unix/2817', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d4d9b9df_34a4_46b6_b2e3_d425aea07f47', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/strathvoyager/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/strathvoyager/new_ws/install/extra_interfaces:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/strathvoyager/new_ws/build/computer_vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2f7269c336178451a8f9d5c56751f88e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/strathvoyager/new_ws/build/computer_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages:/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages:/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/strathvoyager/new_ws/install/extra_interfaces', 'JETSON_P_NUMBER': 'p3701-0005'}, 'shell': False}
+[1.305774] (-) TimerEvent: {}
+[1.406460] (-) TimerEvent: {}
+[1.507074] (-) TimerEvent: {}
+[1.607679] (-) TimerEvent: {}
+[1.643648] (computer_vision) StdoutLine: {'line': b'running egg_info\n'}
+[1.644729] (computer_vision) StdoutLine: {'line': b'writing ../../build/computer_vision/computer_vision.egg-info/PKG-INFO\n'}
+[1.649174] (computer_vision) StdoutLine: {'line': b'writing dependency_links to ../../build/computer_vision/computer_vision.egg-info/dependency_links.txt\n'}
+[1.649700] (computer_vision) StdoutLine: {'line': b'writing entry points to ../../build/computer_vision/computer_vision.egg-info/entry_points.txt\n'}
+[1.649972] (computer_vision) StdoutLine: {'line': b'writing requirements to ../../build/computer_vision/computer_vision.egg-info/requires.txt\n'}
+[1.650210] (computer_vision) StdoutLine: {'line': b'writing top-level names to ../../build/computer_vision/computer_vision.egg-info/top_level.txt\n'}
+[1.652254] (computer_vision) StdoutLine: {'line': b"reading manifest file '../../build/computer_vision/computer_vision.egg-info/SOURCES.txt'\n"}
+[1.652872] (computer_vision) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.653863] (computer_vision) StdoutLine: {'line': b"writing manifest file '../../build/computer_vision/computer_vision.egg-info/SOURCES.txt'\n"}
+[1.654173] (computer_vision) StdoutLine: {'line': b'running build\n'}
+[1.654392] (computer_vision) StdoutLine: {'line': b'running build_py\n'}
+[1.655431] (computer_vision) StdoutLine: {'line': b'running install\n'}
+[1.655848] (computer_vision) StdoutLine: {'line': b'running install_lib\n'}
+[1.658222] (computer_vision) StdoutLine: {'line': b'running install_data\n'}
+[1.658707] (computer_vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.661191] (computer_vision) StdoutLine: {'line': b"removing '/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.661704] (computer_vision) StdoutLine: {'line': b'Copying ../../build/computer_vision/computer_vision.egg-info to /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision-0.0.0-py3.10.egg-info\n'}
+[1.663328] (computer_vision) StdoutLine: {'line': b'running install_scripts\n'}
+[1.691392] (computer_vision) StdoutLine: {'line': b'Installing camera script to /home/strathvoyager/new_ws/install/computer_vision/lib/computer_vision\n'}
+[1.692368] (computer_vision) StdoutLine: {'line': b"writing list of installed files to '/home/strathvoyager/new_ws/build/computer_vision/install.log'\n"}
+[1.707760] (-) TimerEvent: {}
+[1.737285] (computer_vision) CommandEnded: {'returncode': 0}
+[1.776321] (computer_vision) JobEnded: {'identifier': 'computer_vision', 'rc': 0}
+[1.778438] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+  File "/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision/detect.py", line 96
+    self.get_logger().info(f'{(x1,y1,self.categories[cls]}')
+                                                           ^
+SyntaxError: f-string: closing parenthesis '}' does not match opening parenthesis '('
+

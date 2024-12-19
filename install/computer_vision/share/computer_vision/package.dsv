@@ -1,0 +1,6 @@
+source;share/computer_vision/hook/pythonpath.ps1
+source;share/computer_vision/hook/pythonpath.dsv
+source;share/computer_vision/hook/pythonpath.sh
+source;share/computer_vision/hook/ament_prefix_path.ps1
+source;share/computer_vision/hook/ament_prefix_path.dsv
+source;share/computer_vision/hook/ament_prefix_path.sh

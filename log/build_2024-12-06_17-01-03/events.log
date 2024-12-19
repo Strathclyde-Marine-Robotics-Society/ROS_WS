@@ -1,0 +1,343 @@
+[0.000000] (-) TimerEvent: {}
+[0.001038] (computer_vision) JobQueued: {'identifier': 'computer_vision', 'dependencies': OrderedDict()}
+[0.001321] (extra_interfaces) JobQueued: {'identifier': 'extra_interfaces', 'dependencies': OrderedDict()}
+[0.001595] (computer_vision) JobStarted: {'identifier': 'computer_vision'}
+[0.012767] (extra_interfaces) JobStarted: {'identifier': 'extra_interfaces'}
+[0.099394] (-) TimerEvent: {}
+[0.199820] (-) TimerEvent: {}
+[0.300257] (-) TimerEvent: {}
+[0.400682] (-) TimerEvent: {}
+[0.433478] (extra_interfaces) JobProgress: {'identifier': 'extra_interfaces', 'progress': 'cmake'}
+[0.434308] (extra_interfaces) JobProgress: {'identifier': 'extra_interfaces', 'progress': 'build'}
+[0.435642] (extra_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/strathvoyager/new_ws/build/extra_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/strathvoyager/new_ws/build/extra_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'strathvoyager'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/strathvoyager/new_ws/install/extra_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/strathvoyager'), ('OLDPWD', '/home/strathvoyager'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2729'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/strathvoyager/new_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'strathvoyager'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323023562'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'strathvoyager'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/strathvoyager/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2700,unix/ubuntu:/tmp/.ICE-unix/2700'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/544b4991_5125_405a_b4f9_9ce60772b2cb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/strathvoyager/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/strathvoyager/new_ws/install/extra_interfaces:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/strathvoyager/new_ws/build/extra_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages:/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/strathvoyager/new_ws/install/extra_interfaces:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.487080] (extra_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500828] (-) TimerEvent: {}
+[0.601370] (-) TimerEvent: {}
+[0.701888] (-) TimerEvent: {}
+[0.727371] (extra_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.801968] (-) TimerEvent: {}
+[0.843468] (extra_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.850641] (extra_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.857806] (extra_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.902092] (-) TimerEvent: {}
+[0.946742] (extra_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002218] (-) TimerEvent: {}
+[1.042454] (computer_vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/computer_vision', 'build', '--build-base', '/home/strathvoyager/new_ws/build/computer_vision/build', 'install', '--record', '/home/strathvoyager/new_ws/build/computer_vision/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/strathvoyager/new_ws/src/computer_vision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'strathvoyager', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/strathvoyager/new_ws/install/extra_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/strathvoyager', 'OLDPWD': '/home/strathvoyager', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'JETSON_MODEL': 'NVIDIA Jetson AGX Orin Developer Kit', 'SYSTEMD_EXEC_PID': '2729', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/strathvoyager/new_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'strathvoyager', 'JETSON_MODULE': 'NVIDIA Jetson AGX Orin (64GB ram)', 'JETSON_SERIAL_NUMBER': '1423323023562', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'strathvoyager', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/strathvoyager/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2700,unix/ubuntu:/tmp/.ICE-unix/2700', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/544b4991_5125_405a_b4f9_9ce60772b2cb', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/strathvoyager/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/strathvoyager/new_ws/install/extra_interfaces:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/strathvoyager/new_ws/build/computer_vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/strathvoyager/new_ws/build/computer_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages:/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages:/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/strathvoyager/new_ws/install/extra_interfaces', 'JETSON_P_NUMBER': 'p3701-0005'}, 'shell': False}
+[1.102338] (-) TimerEvent: {}
+[1.202971] (-) TimerEvent: {}
+[1.303469] (-) TimerEvent: {}
+[1.332494] (extra_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.400092] (computer_vision) StdoutLine: {'line': b'running egg_info\n'}
+[1.400808] (computer_vision) StdoutLine: {'line': b'writing ../../build/computer_vision/computer_vision.egg-info/PKG-INFO\n'}
+[1.401231] (computer_vision) StdoutLine: {'line': b'writing dependency_links to ../../build/computer_vision/computer_vision.egg-info/dependency_links.txt\n'}
+[1.401568] (computer_vision) StdoutLine: {'line': b'writing entry points to ../../build/computer_vision/computer_vision.egg-info/entry_points.txt\n'}
+[1.401767] (computer_vision) StdoutLine: {'line': b'writing requirements to ../../build/computer_vision/computer_vision.egg-info/requires.txt\n'}
+[1.401905] (computer_vision) StdoutLine: {'line': b'writing top-level names to ../../build/computer_vision/computer_vision.egg-info/top_level.txt\n'}
+[1.403506] (-) TimerEvent: {}
+[1.404585] (computer_vision) StdoutLine: {'line': b"reading manifest file '../../build/computer_vision/computer_vision.egg-info/SOURCES.txt'\n"}
+[1.404821] (computer_vision) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.405960] (computer_vision) StdoutLine: {'line': b"writing manifest file '../../build/computer_vision/computer_vision.egg-info/SOURCES.txt'\n"}
+[1.407313] (computer_vision) StdoutLine: {'line': b'running build\n'}
+[1.407451] (computer_vision) StdoutLine: {'line': b'running build_py\n'}
+[1.407558] (computer_vision) StdoutLine: {'line': b'copying computer_vision/camera.py -> /home/strathvoyager/new_ws/build/computer_vision/build/lib/computer_vision\n'}
+[1.407662] (computer_vision) StdoutLine: {'line': b'copying computer_vision/display.py -> /home/strathvoyager/new_ws/build/computer_vision/build/lib/computer_vision\n'}
+[1.407758] (computer_vision) StdoutLine: {'line': b'running install\n'}
+[1.407849] (computer_vision) StdoutLine: {'line': b'running install_lib\n'}
+[1.408347] (computer_vision) StdoutLine: {'line': b'copying /home/strathvoyager/new_ws/build/computer_vision/build/lib/computer_vision/camera.py -> /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision\n'}
+[1.408606] (computer_vision) StdoutLine: {'line': b'copying /home/strathvoyager/new_ws/build/computer_vision/build/lib/computer_vision/display.py -> /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision\n'}
+[1.409353] (computer_vision) StdoutLine: {'line': b'byte-compiling /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision/camera.py to camera.cpython-310.pyc\n'}
+[1.410576] (computer_vision) StdoutLine: {'line': b'byte-compiling /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision/display.py to display.cpython-310.pyc\n'}
+[1.411154] (computer_vision) StdoutLine: {'line': b'running install_data\n'}
+[1.411366] (computer_vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.415402] (computer_vision) StdoutLine: {'line': b"removing '/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.415912] (computer_vision) StdoutLine: {'line': b'Copying ../../build/computer_vision/computer_vision.egg-info to /home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision-0.0.0-py3.10.egg-info\n'}
+[1.417228] (computer_vision) StdoutLine: {'line': b'running install_scripts\n'}
+[1.445300] (computer_vision) StdoutLine: {'line': b'Installing camera script to /home/strathvoyager/new_ws/install/computer_vision/lib/computer_vision\n'}
+[1.445736] (computer_vision) StdoutLine: {'line': b'Installing display script to /home/strathvoyager/new_ws/install/computer_vision/lib/computer_vision\n'}
+[1.446257] (computer_vision) StdoutLine: {'line': b"writing list of installed files to '/home/strathvoyager/new_ws/build/computer_vision/install.log'\n"}
+[1.491032] (computer_vision) CommandEnded: {'returncode': 0}
+[1.503986] (-) TimerEvent: {}
+[1.509656] (computer_vision) JobEnded: {'identifier': 'computer_vision', 'rc': 0}
+[1.604161] (-) TimerEvent: {}
+[1.681869] (extra_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.704275] (-) TimerEvent: {}
+[1.804893] (-) TimerEvent: {}
+[1.905643] (-) TimerEvent: {}
+[2.006096] (-) TimerEvent: {}
+[2.106455] (-) TimerEvent: {}
+[2.109529] (extra_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.154810] (extra_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.193420] (extra_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.193884] (extra_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.194141] (extra_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.206581] (-) TimerEvent: {}
+[2.229911] (extra_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.232546] (extra_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.248372] (extra_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.304193] (extra_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.306668] (-) TimerEvent: {}
+[2.309036] (extra_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/strathvoyager/new_ws/build/extra_interfaces\n'}
+[2.351212] (extra_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.369258] (extra_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.387786] (extra_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_extra_interfaces\n'}
+[2.406778] (-) TimerEvent: {}
+[2.507210] (-) TimerEvent: {}
+[2.607647] (-) TimerEvent: {}
+[2.708067] (-) TimerEvent: {}
+[2.749692] (extra_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.751044] (extra_interfaces) StdoutLine: {'line': b'writing extra_interfaces.egg-info/PKG-INFO\n'}
+[2.751465] (extra_interfaces) StdoutLine: {'line': b'writing dependency_links to extra_interfaces.egg-info/dependency_links.txt\n'}
+[2.752077] (extra_interfaces) StdoutLine: {'line': b'writing top-level names to extra_interfaces.egg-info/top_level.txt\n'}
+[2.756722] (extra_interfaces) StdoutLine: {'line': b"reading manifest file 'extra_interfaces.egg-info/SOURCES.txt'\n"}
+[2.757723] (extra_interfaces) StdoutLine: {'line': b"writing manifest file 'extra_interfaces.egg-info/SOURCES.txt'\n"}
+[2.765085] (extra_interfaces) StdoutLine: {'line': b'[  5%] Built target extra_interfaces__cpp\n'}
+[2.779259] (extra_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.779660] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.780944] (extra_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.781731] (extra_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.797555] (extra_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_c.dir/rosidl_generator_c/extra_interfaces/msg/detail/ready__functions.c.o\x1b[0m\n'}
+[2.798238] (extra_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_c.dir/rosidl_generator_c/extra_interfaces/msg/detail/photo__functions.c.o\x1b[0m\n'}
+[2.808176] (-) TimerEvent: {}
+[2.811931] (extra_interfaces) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_extra_interfaces_egg\n'}
+[2.908302] (-) TimerEvent: {}
+[3.008752] (-) TimerEvent: {}
+[3.011205] (extra_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libextra_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.063420] (extra_interfaces) StdoutLine: {'line': b'[ 20%] Built target extra_interfaces__rosidl_generator_c\n'}
+[3.076823] (extra_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.077136] (extra_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.077252] (extra_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.108883] (-) TimerEvent: {}
+[3.124776] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.144032] (extra_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/extra_interfaces/msg/photo__type_support.cpp.o\x1b[0m\n'}
+[3.144396] (extra_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/extra_interfaces/msg/ready__type_support.cpp.o\x1b[0m\n'}
+[3.145699] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.164270] (extra_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/extra_interfaces/msg/detail/ready__type_support.cpp.o\x1b[0m\n'}
+[3.164652] (extra_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/extra_interfaces/msg/detail/photo__type_support.cpp.o\x1b[0m\n'}
+[3.173888] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.192276] (extra_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/extra_interfaces/msg/detail/dds_fastrtps/photo__type_support.cpp.o\x1b[0m\n'}
+[3.192646] (extra_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/extra_interfaces/msg/detail/dds_fastrtps/ready__type_support.cpp.o\x1b[0m\n'}
+[3.209022] (-) TimerEvent: {}
+[3.309895] (-) TimerEvent: {}
+[3.410406] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.410763] (-) TimerEvent: {}
+[3.428235] (extra_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/extra_interfaces/msg/ready__type_support.cpp.o\x1b[0m\n'}
+[3.428630] (extra_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/extra_interfaces/msg/photo__type_support.cpp.o\x1b[0m\n'}
+[3.456933] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.467696] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.474512] (extra_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/extra_interfaces/msg/detail/ready__type_support.c.o\x1b[0m\n'}
+[3.474994] (extra_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/extra_interfaces/msg/detail/photo__type_support.c.o\x1b[0m\n'}
+[3.475162] (extra_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.488239] (extra_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/extra_interfaces/msg/detail/ready__type_support_c.cpp.o\x1b[0m\n'}
+[3.488710] (extra_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/extra_interfaces/msg/detail/photo__type_support_c.cpp.o\x1b[0m\n'}
+[3.510941] (-) TimerEvent: {}
+[3.527989] (extra_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libextra_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.533816] (extra_interfaces) StdoutLine: {'line': b'[ 64%] Built target extra_interfaces__rosidl_typesupport_c\n'}
+[3.578579] (extra_interfaces) StdoutLine: {'line': b'[ 64%] Built target extra_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.611088] (-) TimerEvent: {}
+[3.705202] (extra_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.711219] (-) TimerEvent: {}
+[3.757992] (extra_interfaces) StdoutLine: {'line': b'[ 66%] Built target extra_interfaces__rosidl_typesupport_cpp\n'}
+[3.811345] (-) TimerEvent: {}
+[3.893603] (extra_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.901003] (extra_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.911485] (-) TimerEvent: {}
+[3.949255] (extra_interfaces) StdoutLine: {'line': b'[ 71%] Built target extra_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.002880] (extra_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libextra_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.007486] (extra_interfaces) StdoutLine: {'line': b'[ 74%] Built target extra_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.011569] (-) TimerEvent: {}
+[4.112049] (-) TimerEvent: {}
+[4.115953] (extra_interfaces) StdoutLine: {'line': b'[ 74%] Built target extra_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.153040] (extra_interfaces) StdoutLine: {'line': b'[ 74%] Built target extra_interfaces\n'}
+[4.189723] (extra_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.212186] (-) TimerEvent: {}
+[4.312989] (-) TimerEvent: {}
+[4.413888] (-) TimerEvent: {}
+[4.514676] (-) TimerEvent: {}
+[4.615308] (-) TimerEvent: {}
+[4.715808] (-) TimerEvent: {}
+[4.716376] (extra_interfaces) StdoutLine: {'line': b'[ 76%] Built target extra_interfaces__py\n'}
+[4.737378] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_generator_py\x1b[0m\n'}
+[4.760738] (extra_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_py.dir/rosidl_generator_py/extra_interfaces/msg/_ready_s.c.o\x1b[0m\n'}
+[4.761156] (extra_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_generator_py.dir/rosidl_generator_py/extra_interfaces/msg/_photo_s.c.o\x1b[0m\n'}
+[4.815924] (-) TimerEvent: {}
+[4.916562] (-) TimerEvent: {}
+[4.964987] (extra_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/extra_interfaces/libextra_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.016886] (-) TimerEvent: {}
+[5.026231] (extra_interfaces) StdoutLine: {'line': b'[ 84%] Built target extra_interfaces__rosidl_generator_py\n'}
+[5.045013] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.045471] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[5.045631] (extra_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target extra_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.067088] (extra_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.067806] (extra_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.068396] (extra_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/extra_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.117017] (-) TimerEvent: {}
+[5.205046] (extra_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/extra_interfaces/extra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[5.205444] (extra_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/extra_interfaces/extra_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[5.210775] (extra_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/extra_interfaces/extra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[5.217121] (-) TimerEvent: {}
+[5.258191] (extra_interfaces) StdoutLine: {'line': b'[100%] Built target extra_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.263061] (extra_interfaces) StdoutLine: {'line': b'[100%] Built target extra_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.270387] (extra_interfaces) StdoutLine: {'line': b'[100%] Built target extra_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.295555] (extra_interfaces) CommandEnded: {'returncode': 0}
+[5.317229] (-) TimerEvent: {}
+[5.417806] (-) TimerEvent: {}
+[5.428682] (extra_interfaces) JobProgress: {'identifier': 'extra_interfaces', 'progress': 'install'}
+[5.441705] (extra_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/strathvoyager/new_ws/build/extra_interfaces'], 'cwd': '/home/strathvoyager/new_ws/build/extra_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'strathvoyager'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/strathvoyager/new_ws/install/extra_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/strathvoyager'), ('OLDPWD', '/home/strathvoyager'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2729'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/strathvoyager/new_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'strathvoyager'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323023562'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'strathvoyager'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/strathvoyager/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2700,unix/ubuntu:/tmp/.ICE-unix/2700'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/544b4991_5125_405a_b4f9_9ce60772b2cb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/strathvoyager/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/strathvoyager/new_ws/install/extra_interfaces:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/strathvoyager/new_ws/build/extra_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages:/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/strathvoyager/new_ws/install/extra_interfaces:/home/strathvoyager/new_ws/install/computer_vision:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[5.459545] (extra_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.460215] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/ament_index/resource_index/rosidl_interfaces/extra_interfaces\n'}
+[5.460609] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces\n'}
+[5.460964] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg\n'}
+[5.461352] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail\n'}
+[5.461669] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__functions.c\n'}
+[5.461977] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__type_support.h\n'}
+[5.462298] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__type_support.h\n'}
+[5.462525] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__functions.h\n'}
+[5.462799] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__functions.h\n'}
+[5.463058] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__functions.c\n'}
+[5.463409] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__struct.h\n'}
+[5.463659] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__struct.h\n'}
+[5.463884] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/photo.h\n'}
+[5.464154] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.464464] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/ready.h\n'}
+[5.464690] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/library_path.sh\n'}
+[5.464947] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/library_path.dsv\n'}
+[5.465212] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_generator_c.so\n'}
+[5.465555] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.465879] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces\n'}
+[5.466173] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg\n'}
+[5.466447] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail\n'}
+[5.466667] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__rosidl_typesupport_fastrtps_c.h\n'}
+[5.466935] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__rosidl_typesupport_fastrtps_c.h\n'}
+[5.467253] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.467603] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.467918] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.468219] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces\n'}
+[5.468519] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg\n'}
+[5.468843] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail\n'}
+[5.469140] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__type_support.c\n'}
+[5.469443] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__rosidl_typesupport_introspection_c.h\n'}
+[5.469722] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__type_support.c\n'}
+[5.470049] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__rosidl_typesupport_introspection_c.h\n'}
+[5.470373] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.470651] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.470926] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.471147] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_c.so\n'}
+[5.471507] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.471829] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces\n'}
+[5.472114] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg\n'}
+[5.472380] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/photo.hpp\n'}
+[5.472606] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.472862] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail\n'}
+[5.473134] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__traits.hpp\n'}
+[5.473407] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__builder.hpp\n'}
+[5.473728] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__type_support.hpp\n'}
+[5.474014] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__type_support.hpp\n'}
+[5.474323] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__builder.hpp\n'}
+[5.474597] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__traits.hpp\n'}
+[5.474902] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__struct.hpp\n'}
+[5.475263] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__struct.hpp\n'}
+[5.475579] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/ready.hpp\n'}
+[5.475893] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces\n'}
+[5.476212] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg\n'}
+[5.476493] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail\n'}
+[5.476803] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/dds_fastrtps\n'}
+[5.477061] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.477354] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.477592] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.477807] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.478020] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.478230] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces\n'}
+[5.478434] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg\n'}
+[5.478639] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail\n'}
+[5.478842] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__type_support.cpp\n'}
+[5.479049] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__type_support.cpp\n'}
+[5.479252] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/ready__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.479502] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/include/extra_interfaces/extra_interfaces/msg/detail/photo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.479716] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.479924] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.480128] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.480331] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.480533] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/pythonpath.sh\n'}
+[5.480736] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/pythonpath.dsv\n'}
+[5.480935] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info\n'}
+[5.481137] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.481375] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.481596] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.481805] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.482012] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces\n'}
+[5.482218] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/libextra_interfaces__rosidl_generator_py.so\n'}
+[5.482421] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.482672] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.482886] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg\n'}
+[5.483091] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/__init__.py\n'}
+[5.483297] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_ready.py\n'}
+[5.483502] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_photo.py\n'}
+[5.483732] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_photo_s.c\n'}
+[5.483938] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_ready_s.c\n'}
+[5.484141] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.484348] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/__init__.py\n'}
+[5.484555] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.484760] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.484998] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/_extra_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.517873] (-) TimerEvent: {}
+[5.532373] (extra_interfaces) StdoutLine: {'line': b"Listing '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces'...\n"}
+[5.532678] (extra_interfaces) StdoutLine: {'line': b"Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/__init__.py'...\n"}
+[5.532803] (extra_interfaces) StdoutLine: {'line': b"Listing '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg'...\n"}
+[5.532903] (extra_interfaces) StdoutLine: {'line': b"Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/__init__.py'...\n"}
+[5.532992] (extra_interfaces) StdoutLine: {'line': b"Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_photo.py'...\n"}
+[5.533075] (extra_interfaces) StdoutLine: {'line': b"Compiling '/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/msg/_ready.py'...\n"}
+[5.540580] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.540903] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[5.541042] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.541395] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[5.541624] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.541976] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/local/lib/python3.10/dist-packages/extra_interfaces/extra_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[5.542156] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_generator_py.so\n'}
+[5.542554] (extra_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/strathvoyager/new_ws/install/extra_interfaces/lib/libextra_interfaces__rosidl_generator_py.so" to ""\n'}
+[5.542859] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Photo.idl\n'}
+[5.543116] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Ready.idl\n'}
+[5.543236] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Photo.msg\n'}
+[5.543399] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/msg/Ready.msg\n'}
+[5.543510] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/ament_index/resource_index/package_run_dependencies/extra_interfaces\n'}
+[5.543612] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/ament_index/resource_index/parent_prefix_path/extra_interfaces\n'}
+[5.543767] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/ament_prefix_path.sh\n'}
+[5.543889] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.543986] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/path.sh\n'}
+[5.544126] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/environment/path.dsv\n'}
+[5.544265] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/local_setup.bash\n'}
+[5.544361] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/local_setup.sh\n'}
+[5.544492] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/local_setup.zsh\n'}
+[5.544589] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/local_setup.dsv\n'}
+[5.544680] (extra_interfaces) StdoutLine: {'line': b'-- Installing: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.dsv\n'}
+[5.544829] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/ament_index/resource_index/packages/extra_interfaces\n'}
+[5.544980] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.545100] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.545222] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.545320] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.545512] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.545666] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.545789] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.545885] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.545977] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.546515] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.546699] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.546839] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.546981] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.547136] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.547277] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.547369] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.547458] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/export_extra_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.547548] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.547634] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.547721] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.547807] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.547893] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.547990] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.548087] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.548174] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfacesConfig.cmake\n'}
+[5.548259] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/cmake/extra_interfacesConfig-version.cmake\n'}
+[5.548345] (extra_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/strathvoyager/new_ws/install/extra_interfaces/share/extra_interfaces/package.xml\n'}
+[5.550911] (extra_interfaces) CommandEnded: {'returncode': 0}
+[5.618002] (-) TimerEvent: {}
+[5.714792] (extra_interfaces) JobEnded: {'identifier': 'extra_interfaces', 'rc': 0}
+[5.716635] (-) EventReactorShutdown: {}

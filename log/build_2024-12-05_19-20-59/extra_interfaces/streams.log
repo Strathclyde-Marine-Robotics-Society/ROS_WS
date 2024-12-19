@@ -1,0 +1,49 @@
+[0.021s] Invoking command in '/home/strathvoyager/new_ws/build/extra_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/ros2/install/transmitter:/home/strathvoyager/ros2/install/telemetry:/home/strathvoyager/ros2/install/simulator:/home/strathvoyager/ros2/install/qtm_data:/home/strathvoyager/ros2/install/path_planner:/home/strathvoyager/ros2/install/path_follower:/home/strathvoyager/ros2/install/lidar_clustering:/home/strathvoyager/ros2/install/gps:/home/strathvoyager/ros2/install/goal_generator:/home/strathvoyager/ros2/install/environment:/home/strathvoyager/ros2/install/computer_vision:/opt/ros/humble /usr/bin/cmake /home/strathvoyager/new_ws/src/extra_interfaces -DCMAKE_INSTALL_PREFIX=/home/strathvoyager/new_ws/install/extra_interfaces
+[0.048s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.297s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.419s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.437s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.447s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.855s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.856s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.856s]   extra_interfaces --arguments-file
+[0.856s]   /home/strathvoyager/new_ws/build/extra_interfaces/rosidl_adapter__arguments__extra_interfaces.json
+[0.856s]   --output-dir
+[0.857s]   /home/strathvoyager/new_ws/build/extra_interfaces/rosidl_adapter/extra_interfaces
+[0.857s]   --output-file
+[0.857s]   /home/strathvoyager/new_ws/build/extra_interfaces/rosidl_adapter/extra_interfaces.idls)
+[0.857s]   returned error code 1:
+[0.857s] 
+[0.858s]   Traceback (most recent call last):
+[0.858s] 
+[0.858s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.858s]       return _run_code(code, main_globals, None,
+[0.858s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.859s]       exec(code, run_globals)
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.859s]       sys.exit(main())
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.859s]       abs_idl_file = convert_to_idl(
+[0.860s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.860s]       return convert_msg_to_idl(
+[0.860s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.860s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.860s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.861s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.861s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.861s]       self.base_type = BaseType(
+[0.861s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.861s]       raise InvalidResourceName(
+[0.862s] 
+[0.862s]   rosidl_adapter.parser.InvalidResourceName: 'photo' is an invalid message
+[0.862s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.862s] 
+[0.862s] Call Stack (most recent call first):
+[0.862s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.863s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[0.863s] 
+[0.863s] [0m
+[0.863s] -- Configuring incomplete, errors occurred!
+[0.863s] See also "/home/strathvoyager/new_ws/build/extra_interfaces/CMakeFiles/CMakeOutput.log".
+[0.867s] Invoked command in '/home/strathvoyager/new_ws/build/extra_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strathvoyager/ros2/install/transmitter:/home/strathvoyager/ros2/install/telemetry:/home/strathvoyager/ros2/install/simulator:/home/strathvoyager/ros2/install/qtm_data:/home/strathvoyager/ros2/install/path_planner:/home/strathvoyager/ros2/install/path_follower:/home/strathvoyager/ros2/install/lidar_clustering:/home/strathvoyager/ros2/install/gps:/home/strathvoyager/ros2/install/goal_generator:/home/strathvoyager/ros2/install/environment:/home/strathvoyager/ros2/install/computer_vision:/opt/ros/humble /usr/bin/cmake /home/strathvoyager/new_ws/src/extra_interfaces -DCMAKE_INSTALL_PREFIX=/home/strathvoyager/new_ws/install/extra_interfaces

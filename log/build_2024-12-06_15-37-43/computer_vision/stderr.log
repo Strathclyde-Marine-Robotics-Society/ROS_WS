@@ -1,0 +1,5 @@
+  File "/home/strathvoyager/new_ws/install/computer_vision/lib/python3.10/site-packages/computer_vision/camera.py", line 70
+    self.get_logger().info(f'{time.time() - t}, {len(img.tobytes())')
+                                                                    ^
+SyntaxError: f-string: expecting '}'
+
